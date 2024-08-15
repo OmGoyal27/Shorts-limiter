@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Shorts Limiter",
+  "version": "1.0",
+  "description": "Sends the currently open website URL to a Python script. Made by Om Goyal.",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
